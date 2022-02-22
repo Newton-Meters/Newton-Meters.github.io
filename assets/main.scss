@@ -1,0 +1,30 @@
+---
+---
+
+@import "minima";
+@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&family=Poppins:wght@300&display=swap');
+
+body {
+    background-color:#120200;
+    color: #F6F6E9;
+    font-family: 'Poppins', sans-serif;
+}
+
+.site-nav .page-link,
+.site-title {
+    color: #F6F6E9;
+    font-family: 'Gravitas One';
+
+    &:hover {
+        color:#ED5B2D;
+        text-decoration: none;
+    }
+}
+
+a {
+    color: #FFCE6D;
+
+    &:hover {
+        color:#FFCE6D;
+    }
+}
