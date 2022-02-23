@@ -28,3 +28,21 @@ a {
         color:#FFCE6D;
     }
 }
+
+.site-footer {
+    img {
+        width: 10rem;
+    }
+
+    .footer-heading {
+        font-family: 'Gravitas One';
+    }
+
+    .wrapper {
+        display: flex;
+    }
+
+    .wrapper * {
+        margin: auto;
+    }
+}
