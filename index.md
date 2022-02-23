@@ -1,7 +1,8 @@
 ---
 layout: home
+title: 
 ---
-## Hello 👋
+# Hello 👋
 
 If you need a static website 🚀 and you could use a solution where you don't have to pay a monthly hosting fee 💰 feel free to get in touch!
 
