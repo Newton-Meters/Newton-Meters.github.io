@@ -32,6 +32,7 @@ a {
 .site-footer {
     img {
         width: 10rem;
+        margin-left: -2.5rem;
     }
 
     .footer-heading {
@@ -42,7 +43,7 @@ a {
         display: flex;
     }
 
-    .wrapper * {
+    .wrapper *:not(img) {
         margin: auto;
     }
 }
