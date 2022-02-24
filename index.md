@@ -7,15 +7,11 @@ order: 0
 
 If you need a website 🚀 and you could use a solution where you don't have to pay a monthly hosting fee 💰 feel free to get in touch!
 
-Things we can do with a static website: 
-* Host it for free
-* Publish static content - blogs, portfolios, documentation 
-* Create contact forms
-* Embed other apps - calendars, maps, files
-* Share materials - pictures, pdfs, Microsoft Documents
+We specialize in building static websites, websites where the contents don't change. 
 
-We probably wouldn't be a good fit if you needed:
-* Authentication
-* Integrations with sales apps (Shopify)
-* Record keeping or data entry (Database stuff)
-* An easy way for someone with no development experience to edit your website 
+Examples of static websites include: 
+* Blogs
+* Business landing pages
+* Portfolio/CV
+* Documentation
+* Forms
