@@ -10,6 +10,16 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+.site-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.site-header > img {
+    width: 6rem;
+}
+
 .site-title {
     margin-left: 1rem;
     font-family: 'Gravitas One';
@@ -69,17 +79,10 @@ a {
 }
 
 .site-footer {
-    img {
-        width: 10rem;
-        margin-left: -2.5rem;
-    }
+    border: none;
 
     .footer-heading {
         font-family: 'Gravitas One';
-    }
-
-    .wrapper {
-        display: flex;
     }
 
     .wrapper *:not(img) {
