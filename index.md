@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "Hello 👋"
+title: "Hello!"
 description: A little bit about us
 ---
 
