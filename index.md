@@ -1,17 +1,21 @@
 ---
 layout: home
 title: "Hello!"
-description: A little bit about us
+description: A little bit about us...
+order: 0
 ---
 
-If you need a static website 🚀 and you could use a solution where you don't have to pay a monthly hosting fee 💰 feel free to get in touch!
+If you need a website 🚀 and you could use a solution where you don't have to pay a monthly hosting fee 💰 feel free to get in touch!
 
-Shoot us an email at [query@newtonmeters.com](mailto:query@newtonmeters.com)
+Things we can do with a static website: 
+* Host it for free
+* Publish static content - blogs, portfolios, documentation 
+* Create contact forms
+* Embed other apps - calendars, maps, files
+* Share materials - pictures, pdfs, Microsoft Documents
 
-If we can help, you can expect...
-
-<ul style="list-style-type: none;">
-<li>🔎 to meet for an introductory discovery session</li>
-<li>☑️ a taskboard you can view 24/7</li>
-<li>👍 review sessions where we demo what we've built, and recycle and feedback you have for us</li>
-</ul>
+We probably wouldn't be a good fit if you needed:
+* Authentication
+* Integrations with sales apps (Shopify)
+* Persist state or workflows that require state (Database)
+* An easy way for someone with no development experience to edit your website 

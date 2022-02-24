@@ -10,7 +10,7 @@
     <main class="page-content" aria-label="Content">
       <div class="wrapper inbox">
         <h1>Inbox</h1>
-        {%- assign default_paths = site.pages | map: "path" -%}
+        {%- assign default_paths = site.pages | sort:"order" | map: "path" -%}
         {%- assign page_paths = site.header_pages | default: default_paths -%}
         {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
     

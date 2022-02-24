@@ -1,8 +1,9 @@
 ---
 layout: home
 title: Portfolio
-description: Check out some stuff we built
+description: Check out some stuff we built...
 permalink: /portfolio/
+order: 2
 ---
 If you'd like to see some of our work, check out the following websites:
 
