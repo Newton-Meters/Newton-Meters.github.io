@@ -6,6 +6,8 @@ permalink: /ownership/
 order: 3
 ---
 
+Who owns the code for your website? 
+
 You do. 
 
 If you are interested in maintaining 👷 your own website, and are excited to learn a little web development, we'll set you up with a way to access and edit your code. 
