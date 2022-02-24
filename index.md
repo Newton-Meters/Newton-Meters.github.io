@@ -17,5 +17,5 @@ Things we can do with a static website:
 We probably wouldn't be a good fit if you needed:
 * Authentication
 * Integrations with sales apps (Shopify)
-* Persist state or workflows that require state (Database)
+* Record keeping or data entry (Database stuff)
 * An easy way for someone with no development experience to edit your website 
