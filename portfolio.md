@@ -3,7 +3,7 @@ layout: home
 title: Portfolio
 description: Check out some stuff we built...
 permalink: /portfolio/
-order: 6
+order: 7
 ---
 If you'd like to see some of our work, check out the following websites:
 
