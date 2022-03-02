@@ -10,14 +10,19 @@
     suffix: "  ";
 }
 
+$dark: #121212;
+$light: #F5F5F5;
+$pop: #F05454;
+$activeLink: #30475E;
+
 li {
     list-style-type: emoji;
     margin-left: 1rem;
 }
 
 body {
-    background-color:#120200;
-    color: #F6F6E9;
+    background-color:$dark;
+    color: $light;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -37,7 +42,7 @@ body {
 
     &:hover {
         text-decoration: none;
-        color: #ED5B2D;
+        color: $pop;
     }
 }
 
@@ -46,11 +51,11 @@ body {
 }
 
 .page-link {
-    color: #F6F6E9 !important;
+    color: $light !important;
     padding: 1rem;
 
     &:hover {
-        color:#ED5B2D;
+        color:$pop;
         text-decoration: none;
         background-color: #f6f6e91f;
     }
@@ -66,7 +71,7 @@ body {
 }
 
 .inbox {
-    border-right: 1px solid #e8e8e8;
+    border-right: 1px solid $light;
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -93,10 +98,14 @@ body {
 }
 
 a {
-    color: #FFCE6D;
+    color: $pop;
+
+    &:visited {
+        color: $pop;
+    }
 
     &:hover {
-        color:#FFCE6D;
+        color: $pop;
     }
 }
 
