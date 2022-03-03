@@ -14,6 +14,8 @@ $dark: #121212;
 $light: #F5F5F5;
 $pop: #F05454;
 $activeLink: #30475E;
+$headerFont: 'Poppins';
+$bodyFont: 'Poppins';
 
 li {
     list-style-type: emoji;
@@ -23,7 +25,7 @@ li {
 body {
     background-color:$dark;
     color: $light;
-    font-family: 'Poppins', sans-serif;
+    font-family: $bodyFont, sans-serif;
 }
 
 .site-header {
@@ -38,11 +40,18 @@ body {
 
 .site-title {
     margin-left: 1rem;
-    font-family: 'Gravitas One';
+    font-family: $headerFont;
     color: $pop;
+    font-weight: bold;
+    font-size: 2.3rem;
 
     &:hover {
         text-decoration: none;
+        color: $pop;
+        transform: scale(1.05);
+    }
+
+    &:visited {
         color: $pop;
     }
 }
@@ -114,7 +123,8 @@ a {
     border: none;
 
     .footer-heading {
-        font-family: 'Gravitas One';
+        font-family: $headerFont;
+        font-weight: bold;
     }
 
     .wrapper *:not(img) {
