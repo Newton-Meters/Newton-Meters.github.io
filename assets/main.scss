@@ -145,8 +145,12 @@ a {
     }
 }
 
+.page-description {
+    filter: brightness(75%);
+}
+
 @media (max-width: 600px) {
-    .hide-mobile {
+    .page-description {
         display: none;
     }
 }
