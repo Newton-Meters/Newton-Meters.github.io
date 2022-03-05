@@ -2,7 +2,7 @@
 ---
 
 @import "minima";
-@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Gravitas+One&family=Poppins:wght@300&display=swap');
 
 @counter-style emoji {
     system: cyclic;
@@ -15,7 +15,7 @@ $light: #F5F5F5;
 $pop: #F05454;
 $activeLink: #30475E;
 $headerFont: 'Poppins';
-$bodyFont: 'Poppins';
+$bodyFont: 'Josefin Sans';
 
 li {
     list-style-type: emoji;
@@ -32,18 +32,21 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
 }
 
 .site-header img {
-    width: 6rem;
+    max-width: 100%;
+    padding: 0.5rem;
 }
 
 .site-title {
-    margin-left: 1rem;
+    margin: 1rem;
     font-family: $headerFont;
     color: $pop;
     font-weight: bold;
-    font-size: 2.3rem;
+    font-size: 3rem;
+    text-align: right;
 
     &:hover {
         text-decoration: none;
@@ -54,6 +57,11 @@ body {
     &:visited {
         color: $pop;
     }
+}
+
+.site-title small {
+    color: $light;
+    font-size: 2rem;
 }
 
 .site-nav {
