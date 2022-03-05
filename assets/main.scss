@@ -144,3 +144,9 @@ a {
         margin: auto;
     }
 }
+
+@media (max-width: 600px) {
+    .hide-mobile {
+        display: none;
+    }
+}
