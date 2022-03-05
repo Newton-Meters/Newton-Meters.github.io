@@ -149,8 +149,20 @@ a {
     filter: brightness(75%);
 }
 
+.mobile-logo {
+    transform: rotate(90deg);
+}
+
+.visible-mobile {
+    display: none;
+}
+
 @media (max-width: 600px) {
-    .page-description {
+    .visible-mobile {
+      display: unset;
+    }
+
+    .hidden-mobile {
         display: none;
     }
 }

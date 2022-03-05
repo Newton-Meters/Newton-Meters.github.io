@@ -1,6 +1,7 @@
 <header class="site-header">
     <a href="{{ "/" | relative_url }}">
-      <img src="/assets/logo.svg" alt="Newton Meters logo">
+      <img src="/assets/logo.svg" alt="Newton Meters logo" class="hidden-mobile">
+      <img src="/assets/logo_m.svg" alt="Newton Meters logo" class="visible-mobile mobile-logo">
     </a>
     <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}<br><small>work done.</small></a>
 </header>
