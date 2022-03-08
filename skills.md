@@ -9,6 +9,6 @@ order: 4
 There are some things we do for every site we build...
 * Host it for free
 * Serve it to your custom domain
-* Ensure it's Serch Engine Optimized
+* Ensure it's Search Engine Optimized
 * Design it for any device 
 * Hook it up to Google Analytics 

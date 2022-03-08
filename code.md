@@ -10,7 +10,7 @@ One of the trade-offs of being able to host your site for free is that we don't 
 
 We write code. 
 
-Which is faster for us and gives us more controll over your design, but you'll need a developer to make changes. 
+Which is faster for us and gives us more control over your design, but you'll need a developer to make changes. 
 
 If you will need a non-developer to maintain your website, you might prefer using popular website builders like 
 * Wordpress
